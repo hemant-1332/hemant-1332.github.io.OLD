@@ -59,9 +59,9 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Hi! I'm Hemant</h1>
-            <h2>I'm an <span>Engineer</span>, <span>Tech enthusiast</span> and <span>Innovator.</span> </h2>
-			<h3>Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <h2>I'm an <span>Engineer</span>, <span>Tech enthusiast</span> and <span>Innovator</span> </h2>
+			<h3>Let's <!--<a class="smoothscroll" href="#about"> -->start scrolling</a>
+            and learn more about me</h3>
             <hr />
             <ul class="social">               
                <li><a href="https://www.linkedin.com/in/hemantsingh-ee1332/ " target="_blank"><i class="fa fa-linkedin"></i></a></li>               
@@ -279,7 +279,7 @@
 
          <div class="twelve columns collapsed">
 
-            <h1>Check Out Some of My Projects.</h1>
+            <h1>Check Out Some of My Projects</h1>
 
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
@@ -606,7 +606,7 @@
    
    
    <section id="contact">
-
+		<!--
          <div class="row section-head">
 
             <div class="two columns header-col">
@@ -617,20 +617,21 @@
 
             <div class="ten columns">
 			
-				<?php include("sendEmail.php"); ?>
+				
                   <p class="lead">Send me message 
                   </p>
 
             </div>
 
-         </div>
+         </div>  -->
 
          <div class="row">
 
-            <div class="eight columns">
+         <!--   <div class="eight columns">  -->
 
                <!-- form -->
-               <form action="sendEmail.php" method="post" id="contactForm" name="contactForm">
+			   <!--
+               <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -670,14 +671,17 @@
                   <i class="fa fa-check"></i>Your message was sent, thank you!<br>
 				   </div>
 
-            </div>
+            </div> 
+			<!--<div class="row>  -->
+			
+			<div class="row section-head">
 
+           <!-- <aside class="four columns footer-widgets">  -->
 
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
+              <!-- <div class="widget widget_contact"> -->
+						<p> &nbsp</p>
+					   <h1>Address and Phone</h1>
+					   <p> &nbsp</p>
 					   <p class="address">
 						   Hemant Singh<br>
 						   Plot 1575 <br>
@@ -688,6 +692,7 @@
 					   </p>
 
 				   </div>
+			</div>
 				   
 				   <!--
 
@@ -762,6 +767,8 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+   
+   <script src="sendEmail.php"></script>
 
 </body>
 
