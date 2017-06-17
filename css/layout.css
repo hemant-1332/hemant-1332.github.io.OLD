@@ -187,7 +187,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   /* background: #2B2B2B; */
+   background: #fff;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -198,7 +199,7 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #2B2B2B;
    margin-bottom: 12px;
 }
 #about p {
@@ -216,7 +217,11 @@ ul#nav li.current a { color: #F06000; }
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
+#about .main-col {
+	padding-right: 5%; 
+}
+
+
 #about .download .button {
    margin-top: 6px;
    background: #444;
@@ -412,6 +417,7 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
+   /* background: #fff; */
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -639,7 +645,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   /* background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center; */
+   background: #fff;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -657,7 +664,7 @@ call-to-action .button {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: #2B2B2B;
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
@@ -669,7 +676,7 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fff;
+   color: #2B2B2B;
 }
 
 /*	Blockquotes */
@@ -677,22 +684,22 @@ call-to-action .button {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   /* text-shadow: 0px 1px 3px rgba(0, 0, 0, 1); */
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
+   font-family: 'librebaskerville-italic', sans-serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
-   color: #fff
+   color: #2B2B2B;
 }
 #testimonials blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
-   color: #fff;
+   color: #2B2B2B;
 }
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
@@ -763,8 +770,9 @@ call-to-action .button {
     width: 12px;
     height: 12px;
     display: block;
-    background: #ddd;
-    background: rgba(255, 255, 255, .3);
+    /* background: #ddd; */
+	background: #2B2B2B;
+    /* background: rgba(255, 255, 255, .3); */
     cursor: pointer;
     text-indent: -9999px;
     -webkit-border-radius: 20px;
@@ -775,11 +783,11 @@ call-to-action .button {
 }
 .flex-control-paging li a:hover {
     background: #CCC;
-    background: rgba(255, 255, 255, .7);
+    /* background: rgba(255, 255, 255, .7); */
 }
 .flex-control-paging li a.flex-active {
-    background: #fff;
-    background: rgba(255, 255, 255, .9);
+    background: #CCC;
+    /* 	background: rgba(255, 255, 255, .9); */
     cursor: default;
 }
 
@@ -789,6 +797,7 @@ call-to-action .button {
 
 #contact {
    background: #191919;
+   /* background: #ebeeee; */
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
